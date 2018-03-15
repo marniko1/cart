@@ -1,0 +1,5 @@
+id:1
+title:Proizvod 1
+description:Lorem ipsum dolor sit amet.
+price:66
+image:https://krebsonsecurity.com/wp-content/uploads/2014/08/loremipsum.png

@@ -1,0 +1,126 @@
+body {
+	font-family: Arial, sans-serif;
+}
+body > .logout {
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	color: #fff;
+	background-color: rgba(0,0,0,.3);
+	z-index: 100;
+}
+.logout > a {
+	text-decoration: none;
+	color: #fff;
+}
+.logout > span, form[name = logout_form] {
+	display: block;
+	float: right;
+	margin-left: 5px;
+}
+header {
+	background-color: grey;
+	margin-bottom: 100px;
+}
+header > a {
+	float: right;
+	text-decoration: none;
+	color: red;
+}
+header  nav > ul > li > a {
+	color: #fff;
+	font-size: 30px;
+	font-weight: bolder;
+}
+content.content {
+	min-height: 100vh;
+}
+content.cart {
+	position: relative;
+}
+content.cart::after {
+  	content: "";
+  	background: url(../images/shop-cart.png);
+  	background-size: contain;
+  	background-repeat: no-repeat;
+	background-position: right;
+  	opacity: .1;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;
+  	z-index: -1;   
+}
+content img {
+	width: 100%;
+}
+form.products {
+	height: 50%;
+}
+form.products_admin {
+	height: 40%;
+}
+form.cart {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+form.cart button {
+	height: 50px;
+	align-items: flex-end;
+}
+p.description {
+	line-height: 8;
+}
+form.products > button.add_to_cart {
+	display: inline;
+	margin-top: 40%;
+}
+form.products_admin > button.add_to_cart_admin {
+	display: inline;
+	margin-top: 0;
+}
+form.products_admin > button.remove_product {
+	display: inline;
+	margin-top: 10%;
+	height: 50%;
+}
+form.products > span,
+form.products_admin > span {
+	margin-left: 5%;
+	margin-right: 20%;
+	font-size: 20px;
+	font-weight: bolder;
+}
+content > p {
+	color: grey;
+	font-size: 40px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table tr td,
+table tr th {
+	text-align: center;
+	width: 20%;
+}
+table tr td span,
+table tr th span{
+	line-height: 5;
+	font-size: 18px;
+	font-weight: bold;
+}
+table img {
+	max-width: 100px;
+}
+span.total_info {
+	font-size: 18px;
+	font-weight: bolder;
+}
+footer {
+	height: 100px;
+	background-color: grey;
+}

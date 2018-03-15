@@ -1,0 +1,5 @@
+id:6
+title:Pa da probamo
+description:Malo da se igramo :)
+price:45
+image:https://krebsonsecurity.com/wp-content/uploads/2014/08/loremipsum.png

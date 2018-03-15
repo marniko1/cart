@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([a-z0-9_]*)/([a-z0-9_]*)$ ./index.php?c=$1&m=$2 [NC]
